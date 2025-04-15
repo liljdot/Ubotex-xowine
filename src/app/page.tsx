@@ -1,11 +1,12 @@
 import Image from "next/image";
+import HeroSection from "./components/home/HeroSection";
 
 export default function Home() {
   return (
-    <>
-    <h1>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, labore id quos voluptas natus dolor. Asperiores mollitia autem, accusantium facilis alias aliquid? Ea et nam nobis necessitatibus soluta voluptatum explicabo ratione veritatis maxime accusantium, nulla consequatur ullam fugiat odio sint accusamus saepe vero libero aliquam labore non ex ipsam pariatur. Laboriosam in at assumenda ipsa dicta quas libero temporibus possimus incidunt ipsum nam odio voluptatum vel consequatur delectus labore blanditiis voluptate hic, natus cumque. Veritatis sequi debitis facilis amet, commodi in reiciendis aspernatur nisi quidem error tenetur itaque animi dolor sunt accusamus ut necessitatibus ea tempore suscipit alias reprehenderit! Adipisci ad quaerat error quae necessitatibus corrupti quas cupiditate nobis voluptates! Quae libero aspernatur architecto tenetur, fuga laboriosam recusandae rerum illo molestiae quibusdam veritatis saepe est ullam autem at non voluptate! Consequatur, delectus expedita dignissimos nulla nisi cupiditate, odit qui quibusdam ea quaerat facere illum? Amet cupiditate minus iure laboriosam eos exercitationem qui nulla vero? Cupiditate aliquid omnis quos, vitae asperiores alias quisquam modi provident dolorum laudantium labore mollitia tempora cum vel necessitatibus fugit fuga pariatur praesentium reprehenderit quam magnam et quae velit unde? Molestiae, perspiciatis! Magnam rem est nobis ipsum sed, quam dignissimos eum aperiam, earum dicta tempora totam, fugit obcaecati illum nihil doloremque repellendus porro libero? Nisi, nobis facere atque totam labore laudantium assumenda ex illum tempore distinctio voluptatibus fugiat quidem obcaecati hic? Porro sint officia possimus iste aut voluptatem dolorum cumque cupiditate error consectetur? Quidem atque quod nesciunt alias ducimus saepe id distinctio commodi amet a, repudiandae, laudantium debitis ipsa quibusdam. Animi nulla inventore voluptate iste! Esse totam nulla exercitationem ad iste ipsam! Modi soluta quasi ea, deleniti, vitae debitis corrupti iste neque ex laboriosam vel officia suscipit eveniet, quod blanditiis dolores! Architecto error repudiandae quasi nesciunt laudantium dicta eius nostrum, magnam et iste quia illum ad excepturi enim non quaerat voluptates officia velit. Aspernatur laudantium id ipsa, reprehenderit ducimus quos labore laboriosam minima soluta repudiandae sit enim voluptatum libero eius. Ducimus dolorem recusandae modi dolores quod nemo eligendi nisi fuga ad reprehenderit omnis esse est natus deserunt, iusto distinctio libero quam sunt officiis quis quidem. Autem asperiores sequi vel rem dolor exercitationem molestias voluptatum, dolorum, molestiae doloribus officia, nostrum perferendis? Quam eius debitis aut porro illum. Fugit esse rerum nam obcaecati? Rerum quisquam aut illum laborum ratione ipsum odio quod eaque? Ipsa illo asperiores voluptatem beatae totam praesentium facilis veritatis reiciendis voluptatum? Dolorem totam vero magnam corporis?
-    </h1>
-    </>
+    <main className="p-0 bg-neutral w-full">
+      <div className="max-w-450 mx-auto">
+        <HeroSection />
+      </div>
+    </main>
   )
 }
