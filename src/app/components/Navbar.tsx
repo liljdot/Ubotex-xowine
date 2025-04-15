@@ -60,17 +60,15 @@ const Navbar: React.FC = () => {
                             className={`menu menu-sm dropdown-content bg-neutral text-primary gap-3 z-1 mt-3 min-w-40 w-fit shadow pl-3 pr-5 py-4 ${openSans.className}`}
                         >
                             <li><a className="text-base p-0">Home</a></li>
-                            <li><a onClick={() => scrolltoSection("services")} className="text-base p-0">Services</a></li>
-                            <li><a onClick={() => scrolltoSection("projects")} className="text-base p-0">Projects</a></li>
                             <li><a onClick={() => scrolltoSection("about")} className="text-base p-0">About Us</a></li>
+                            <li><a onClick={() => scrolltoSection("contact")} className="text-base p-0">Contact Us</a></li>
                         </ul>
                     </div>
 
                     <ul className={`menu menu-horizontal gap-6 text-neutral px-1 hidden md:inline-flex ${openSans.className}`}>
                         <li><a className="xl:text-lg p-0">Home</a></li>
-                        <li className={`${sectionInView == "services" && "relative after:absolute after:bg-primary after:w-full after:h-1 after:-bottom-10"}`}><a onClick={() => scrolltoSection("services")} className={`${sectionInView == "services" && "text-primary"} xl:text-lg p-0`}>Services</a></li>
-                        <li className={`${sectionInView == "projects" && "relative after:absolute after:bg-primary after:w-full after:h-1 after:-bottom-10"}`}><a onClick={() => scrolltoSection("projects")} className={`${sectionInView == "projects" && "text-primary"} xl:text-lg p-0`}>Projects</a></li>
                         <li className={`${sectionInView == "about" && "relative after:absolute after:bg-primary after:w-full after:h-1 after:-bottom-10"}`}><a onClick={() => scrolltoSection("about")} className={`${sectionInView == "about" && "text-primary"} xl:text-lg p-0`}>About Us</a></li>
+                        <li className={`${sectionInView == "contact" && "relative after:absolute after:bg-primary after:w-full after:h-1 after:-bottom-10"}`}><a onClick={() => scrolltoSection("contact")} className={`${sectionInView == "contact" && "text-primary"} xl:text-lg p-0`}>Contact Us</a></li>
                     </ul>
                 </div>
             </div>
