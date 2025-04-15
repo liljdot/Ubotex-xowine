@@ -1,7 +1,7 @@
 import { Open_Sans, Inter } from "next/font/google";
 import ActionButton from "./ActionButton";
 import Image from "next/image";
-import footerLogo from "@/app/assets/footer-logo.png";
+import footerLogo from "@/app/assets/header-logo.png";
 import { playfairDisplay } from "../layout";
 
 const openSans = Open_Sans({
