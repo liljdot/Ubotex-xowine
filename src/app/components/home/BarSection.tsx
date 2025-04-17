@@ -1,3 +1,7 @@
+import { openSans } from "@/app/layout";
+import Image, { StaticImageData } from "next/image";
+import Gallery from "./Gallery";
+
 const BarSection: React.FC = () => {
 
     return (
@@ -8,10 +12,12 @@ const BarSection: React.FC = () => {
                         OUR BAR
                     </h3>
 
-                    <p className="text-center text-sm/6 md:text-base/8 xl:font-semibold text-base-content grow-0 px-12 md:px-10 lg:px-20 xl:px-32">
+                    <p className={"text-center text-sm/6 md:text-base/8 xl:font-semibold text-base-content grow-0 px-12 md:px-10 lg:px-20 xl:px-32 " + openSans.className}>
                         Our bar offers a carefully curated selection of wines to suit every preference. Enjoy bold and velvety reds, crisp and refreshing whites, elegant rosés, and rich, bubbly champagnes. Whether you prefer dry, sweet, or something in between, we have the perfect pour for every occasion.
                     </p>
                 </div>
+
+                <Gallery />
             </section>
         </>
     )
