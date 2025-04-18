@@ -72,6 +72,17 @@ const XOWineStoreSection: React.FC = () => {
                     className="md:self-end"
                     image={XOWineStoreImage2} />
             </section>
+
+            <div className="flex flex-col md:hidden gap-4 items-center max-w-72 mx-auto">
+                <h1 className="text-xl text-center text-primary">
+                    A BOTTLE OF WINE
+                    FOR EVERY CELEBRATION
+                </h1>
+
+                <ActionButton to="" className="bg-primary text-neutral w-fit">
+                    Contact Us
+                </ActionButton>
+            </div>
         </>
     )
 }
