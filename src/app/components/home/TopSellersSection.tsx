@@ -1,8 +1,10 @@
-const TopSellersSection:React.FC = () => {
+const TopSellersSection: React.FC = () => {
 
     return (
         <>
-        
+            <section className="flex flex-col">
+
+            </section>
         </>
     )
 }
