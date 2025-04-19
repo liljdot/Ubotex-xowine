@@ -5,6 +5,7 @@ import CelebrateSection from "./components/home/CelebrateSection";
 import XOWineStoreSection from "./components/home/XOWineStoreSection";
 import TopSellersSection from "./components/home/TopSellersSection";
 import SavorSection from "./components/home/SavorSection";
+import SplashSection from "./components/home/SplashSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <XOWineStoreSection />
         <TopSellersSection />
         <SavorSection />
+        <SplashSection />
       </div>
     </main>
   )
