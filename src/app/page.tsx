@@ -6,6 +6,7 @@ import XOWineStoreSection from "./components/home/XOWineStoreSection";
 import TopSellersSection from "./components/home/TopSellersSection";
 import SavorSection from "./components/home/SavorSection";
 import SplashSection from "./components/home/SplashSection";
+import ContactSection from "./components/home/ContactSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <TopSellersSection />
         <SavorSection />
         <SplashSection />
+        <ContactSection />
       </div>
     </main>
   )
