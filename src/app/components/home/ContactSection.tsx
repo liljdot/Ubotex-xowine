@@ -15,7 +15,7 @@ const ContactSection: React.FC = () => {
 
     return (
         <>
-            <section className="flex flex-col gap-16 xl:gap-50">
+            <section id="contact" className="target_section flex flex-col gap-16 xl:gap-50">
                 <h1 className="text-primary text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-7xl font-semibold opacity-80 text-center">LOOKING FOR US?</h1>
 
                 <div className="relative h-100 xl:h-175">
