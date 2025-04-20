@@ -4,6 +4,7 @@ import martellImage from "@/app/assets/martell-image.png"
 import bacardiImage from "@/app/assets/bacardi-image.png"
 import { openSans } from "@/app/layout";
 import Link from "next/link";
+import { whatsappContact } from "@/app/data";
 
 const WineCard: React.FC<{ title: string, image: StaticImageData }> = ({ title, image }) => {
 
@@ -19,7 +20,7 @@ const WineCard: React.FC<{ title: string, image: StaticImageData }> = ({ title, 
                 <div className="card-body items-center text-center p-0">
                     <h2 className={"card-title text-xs xl:text-lg " + openSans.className}>{title}</h2>
 
-                    <Link href={""} className={openSans.className + " btn btn-primary w-full text-[0.6rem] md:text-sm lg:text-base font-normal h-8 md:h-12 lg:h-14 py-2 md:py-3 lg:py-4-none shadow-none rounded-full hover:scale-105 transition-all ease-in-out duration-300 "}>
+                    <Link href={whatsappContact} className={openSans.className + " btn btn-primary w-full text-[0.6rem] md:text-sm lg:text-base font-normal h-8 md:h-12 lg:h-14 py-2 md:py-3 lg:py-4-none shadow-none rounded-full hover:scale-105 transition-all ease-in-out duration-300 "}>
                         Buy Now
                     </Link>
                 </div>

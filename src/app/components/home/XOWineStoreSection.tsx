@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 import XOWineStoreImage1 from "@/app/assets/xowinestore-image-1.png"
 import XOWineStoreImage2 from "@/app/assets/xowinestore-image-2.png"
 import ActionButton from "../ActionButton";
+import { whatsappContact } from "@/app/data";
 
 interface CardProps {
     image: StaticImageData;
@@ -59,7 +60,7 @@ const XOWineStoreSection: React.FC = () => {
                             CELEBRATION
                         </h2>
                         <div className="card-actions justify-end">
-                            <ActionButton to="" className="bg-primary text-neutral">
+                            <ActionButton to={whatsappContact} className="bg-primary text-neutral">
                                 Contact Us
                             </ActionButton>
                         </div>
@@ -79,7 +80,7 @@ const XOWineStoreSection: React.FC = () => {
                     FOR EVERY CELEBRATION
                 </h1>
 
-                <ActionButton to="" className="bg-primary text-neutral w-fit">
+                <ActionButton to={whatsappContact} className="bg-primary text-neutral w-fit">
                     Contact Us
                 </ActionButton>
             </div>

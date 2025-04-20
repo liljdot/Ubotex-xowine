@@ -4,6 +4,7 @@ import montesTialaFloatie from "@/app/assets/montes-tiala-floatie.png"
 import moetFloatie from "@/app/assets/moet-floatie.png"
 import chateauFloatie from "@/app/assets/chateau-floatie.png"
 import Image from "next/image"
+import { whatsappContact } from "@/app/data"
 
 const SavorSection: React.FC = () => {
 
@@ -26,7 +27,7 @@ const SavorSection: React.FC = () => {
                     </div>
 
                     <div className="flex justify-center items-center">
-                        <ActionButton to="" className="text-primary">Contact Us</ActionButton>
+                        <ActionButton to={whatsappContact} className="text-primary">Contact Us</ActionButton>
                     </div>
                 </div>
 

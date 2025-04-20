@@ -1,6 +1,7 @@
 import { openSans } from "@/app/layout";
 import ActionButton from "../ActionButton";
 import celebrateSectionBG from "@/app/assets/celebrate-section-bg.png"
+import { whatsappContact } from "@/app/data";
 
 const CelebrateSection: React.FC = () => {
 
@@ -21,7 +22,7 @@ const CelebrateSection: React.FC = () => {
                     </div>
 
                     <div className="flex justify-center items-center">
-                        <ActionButton to="" className="text-primary">Contact Us</ActionButton>
+                        <ActionButton to={whatsappContact} className="text-primary">Contact Us</ActionButton>
                     </div>
                 </div>
 
