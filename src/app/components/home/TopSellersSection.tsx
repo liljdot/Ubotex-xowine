@@ -45,7 +45,7 @@ const TopSellersSection: React.FC = () => {
                         <WineCard image={bacardiImage} title="Barcadi" />
                     </div>
 
-                    <p className={"text-sm/6 md:text-base text-base-content text-center " + openSans.className}>
+                    <p className={"text-sm/6 md:text-base text-base-content text-justify " + openSans.className}>
                         Our bar offers a carefully curated selection of wines to suit every preference. Enjoy bold and velvety reds, crisp and refreshing whites, elegant rosés, and rich, bubbly champagnes. Whether you prefer dry, sweet, or something in between, we have the perfect pour for every occasion.
                     </p>
                 </div>

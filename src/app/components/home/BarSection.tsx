@@ -11,7 +11,7 @@ const BarSection: React.FC = () => {
                         OUR BAR
                     </h3>
 
-                    <p className={"text-center text-sm/6 md:text-base/8 text-base-content grow-0 px-12 md:px-20 lg:px-32 xl:px-47.5 " + openSans.className}>
+                    <p className={"text-justify text-sm/6 md:text-base/8 text-base-content grow-0 px-12 md:px-20 lg:px-32 xl:px-47.5 " + openSans.className}>
                         Our bar offers a carefully curated selection of wines to suit every preference. Enjoy bold and velvety reds, crisp and refreshing whites, elegant rosés, and rich, bubbly champagnes. Whether you prefer dry, sweet, or something in between, we have the perfect pour for every occasion.
                     </p>
                 </div>
