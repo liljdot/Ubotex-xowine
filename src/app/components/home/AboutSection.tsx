@@ -28,7 +28,7 @@ const AboutSection: React.FC = () => {
                                     alt="company" />
                             </figure>
                             <div className="card-body md:w-[50%] md:justify-center p-0">
-                                <p className={"text-center md:text-left text-sm/6 md:text-base/8 xl:font-semibold text-base-content grow-0 " + openSans.className}>
+                                <p className={"text-center md:text-left text-sm/6 md:text-base/8 text-justify xl:font-semibold text-base-content grow-0 " + openSans.className}>
                                     At XO WINE STORES LTD, every bottle is a journey, crafted with passion, aged to perfection, and selected for those who appreciate the finer things. As part of the Ubotex family, we bring you an exclusive collection of world-class wines, spirits, and champagnes, perfect for celebrations, quiet moments, and everything in between.                                </p>
                             </div>
                         </div>
